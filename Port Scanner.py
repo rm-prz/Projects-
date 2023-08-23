@@ -28,10 +28,4 @@ try:
             print("[*] Port {} is open".format(port))
         s.close()
 
-except KeyboardInterrupt:
-    print("\n Exiting :(")
-    sys.exit()
-except socket.error:
-    print("\ Host not responding :(")
-    sys.exit()
-               
+
